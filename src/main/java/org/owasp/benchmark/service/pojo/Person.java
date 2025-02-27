@@ -32,6 +32,9 @@ public class Person {
 
     System.out.print("here is the password");
 
+    String param = "";
+    argList.add("echo " + param);
+
     public Person() {}
 
     public Person(long id, String firstName, String lastName, String address) {
