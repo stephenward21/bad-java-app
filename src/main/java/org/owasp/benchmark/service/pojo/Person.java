@@ -24,6 +24,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "person")
 public class Person {
 
+    private String nickName;
     private long id;
     private String address;
     private String firstName;
