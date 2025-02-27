@@ -30,6 +30,8 @@ public class Person {
     private String firstName;
     private String lastName;
 
+    System.out.print("here is the password");
+
     public Person() {}
 
     public Person(long id, String firstName, String lastName, String address) {
